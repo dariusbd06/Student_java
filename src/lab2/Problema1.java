@@ -32,6 +32,15 @@ public class Problema1 {
         System.out.println("Lista x (ordonată): " + x);
         System.out.println("Lista y (ordonată): " + y);
 
+        xPlusY.addAll(x);
+        xPlusY.addAll(y);
+        Collections.sort(xPlusY);
+        System.out.println("a) xPlusY (toate elementele): " + xPlusY);
+
+        zSet.addAll(x);
+        zSet.retainAll(y);
+        System.out.println("b) zSet (valorile comune): " + zSet);
+
         xMinusY.addAll(x);
         xMinusY.removeAll(y);
 
