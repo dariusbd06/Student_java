@@ -3,14 +3,19 @@ import java.util.Objects;
 public class Student {
     private String numărMatricol;
     private String prenume;
-    private String nume;
+    public String nume;
     private String formațieDeStudiu;
+
+
 
     public Student(String numărMatricol, String prenume, String nume, String formațieDeStudiu) {
         this.numărMatricol = numărMatricol;
         this.prenume = prenume;
         this.nume = nume;
         this.formațieDeStudiu = formațieDeStudiu;
+    }
+    public String getFormațieDeStudiu() {
+        return formațieDeStudiu;
     }
 
     // Metode necesare pentru cautarea O(1) in HashSet
@@ -21,7 +26,9 @@ public class Student {
         Student student = (Student) o;
         return Objects.equals(prenume, student.prenume) &&
                 Objects.equals(nume, student.nume) &&
-                Objects.equals(formațieDeStudiu, student.formațieDeStudiu);
+                Objects.equals(formațieDeStudiu, student.formațieDeStudiu) &&
+        Objects.equals(numărMatricol, student.numărMatricol)
+                ;
     }
 
     @Override
