@@ -7,6 +7,7 @@ public class Student {
     private String formațieDeStudiu;
 
 
+    private double nota;
 
     public Student(String numărMatricol, String prenume, String nume, String formațieDeStudiu) {
         this.numărMatricol = numărMatricol;
@@ -14,30 +15,33 @@ public class Student {
         this.nume = nume;
         this.formațieDeStudiu = formațieDeStudiu;
     }
-    public String getFormațieDeStudiu() {
-        return formațieDeStudiu;
+
+    public String getNumărMatricol() { return numărMatricol; }
+    public String getFormațieDeStudiu() { return formațieDeStudiu; }
+
+
+    public void setNota(double nota) {
+        this.nota = nota;
     }
 
-    // Metode necesare pentru cautarea O(1) in HashSet
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Student student = (Student) o;
-        return Objects.equals(prenume, student.prenume) &&
-                Objects.equals(nume, student.nume) &&
-                Objects.equals(formațieDeStudiu, student.formațieDeStudiu) &&
-        Objects.equals(numărMatricol, student.numărMatricol)
-                ;
+        return Objects.equals(numărMatricol, student.numărMatricol);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(prenume, nume, formațieDeStudiu);
+        return Objects.hash(numărMatricol);
     }
+
 
     @Override
     public String toString() {
-        return "Student { Matricol: " + numărMatricol + ", Nume: " + nume + " " + prenume + " }";
+        return "Matricol: " + numărMatricol + " | Nume: " + nume + " " + prenume +
+                " | Grupa: " + formațieDeStudiu + " | Nota: " + nota;
     }
 }
