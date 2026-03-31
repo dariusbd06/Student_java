@@ -24,6 +24,14 @@ public class Student {
         this.nota = nota;
     }
 
+    public String getPrenume() {
+        return prenume;
+    }
+
+    public double getNota() {
+        return nota;
+    }
+
 
     @Override
     public boolean equals(Object o) {
