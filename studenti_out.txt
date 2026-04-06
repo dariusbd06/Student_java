@@ -1,0 +1,6 @@
+Student { Matricol: 1028, Nume: Ionescu Mihai }
+Student { Matricol: 1024, Nume: Mihalcea Ioan }
+Student { Matricol: 1027, Nume: Mohanu Paul }
+Student { Matricol: 1025, Nume: Popa Andrei }
+Student { Matricol: 1026, Nume: Popescu Bianca }
+Student { Matricol: 1026, Nume: Prodan Anamaria }
