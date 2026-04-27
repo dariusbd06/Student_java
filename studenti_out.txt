@@ -1,6 +1,6 @@
-Student { Matricol: 1028, Nume: Ionescu Mihai }
-Student { Matricol: 1024, Nume: Mihalcea Ioan }
-Student { Matricol: 1027, Nume: Mohanu Paul }
-Student { Matricol: 1025, Nume: Popa Andrei }
-Student { Matricol: 1026, Nume: Popescu Bianca }
-Student { Matricol: 1026, Nume: Prodan Anamaria }
+Matricol: 1028 | Nume: Ionescu Mihai | Grupa: TI132/1 | Nota: 0.0
+Matricol: 1024 | Nume: Mihalcea Ioan | Grupa: ISM141/1 | Nota: 0.0
+Matricol: 1027 | Nume: Mohanu Paul | Grupa: TI132/1 | Nota: 0.0
+Matricol: 1025 | Nume: Popa Andrei | Grupa: ISM141/2 | Nota: 0.0
+Matricol: 1029 | Nume: Popescu Bianca | Grupa: TI131/1 | Nota: 0.0
+Matricol: 1026 | Nume: Prodan Anamaria | Grupa: TI131/1 | Nota: 0.0
