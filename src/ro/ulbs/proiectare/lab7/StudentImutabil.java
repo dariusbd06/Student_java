@@ -23,7 +23,7 @@ public final class StudentImutabil {
     public String getFormatieDeStudiu() { return formatieDeStudiu; }
     public double getNota() { return nota; }
 
-    // Returneaza un student NOU cu formatia schimbata (nu modifica obiectul curent!)
+
     public StudentImutabil mutaInFormatie(String nouaFormatie) {
         return new StudentImutabil(numarMatricol, prenume, nume, nouaFormatie, nota);
     }
