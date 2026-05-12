@@ -52,4 +52,11 @@ public class Student {
         return "Matricol: " + numărMatricol + " | Nume: " + nume + " " + prenume +
                 " | Grupa: " + formațieDeStudiu + " | Nota: " + nota;
     }
+    public Student(int numărMatricol, String prenume, String nume, String formațieDeStudiu, double nota) {
+        this.numărMatricol = String.valueOf(numărMatricol);
+        this.prenume = prenume;
+        this.nume = nume;
+        this.formațieDeStudiu = formațieDeStudiu;
+        this.nota = nota;
+    }
 }
