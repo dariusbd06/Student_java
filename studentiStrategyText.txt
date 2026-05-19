@@ -1,0 +1,9 @@
+Matricol: 1025 | Nume: Popa Andrei | Grupa: ISM141/2 | Nota: 8.7
+Matricol: 1024 | Nume: Mihalcea Ioan | Grupa: ISM141/1 | Nota: 10.0
+Matricol: 1026 | Nume: Prodan Anamaria | Grupa: TI131/1 | Nota: 8.9
+Matricol: 1029 | Nume: Popescu Bianca | Grupa: TI131/1, | Nota: 10.0
+Matricol: 1029 | Nume: Pana Maria | Grupa: TI131/2, | Nota: 4.1
+Matricol: 1029 | Nume: Mohanu Gabriela | Grupa: TI131/2, | Nota: 7.33
+Matricol: 1029 | Nume: Nasta Marius | Grupa: TI131/2, | Nota: 3.2
+Matricol: 1029 | Nume: Nasta Marius | Grupa: TI131/1, | Nota: 5.12
+Matricol: 1029 | Nume: Dobrescu Andrei | Grupa: TI131/2, | Nota: 2.22
